@@ -44,7 +44,7 @@ Você também precisa criar uma conta gratuita no [SerpApi](https://serpapi.com/
 4. Execute o script principal:
 
 ```bash
-python prog.py
+python pesquisador_v1.py
 ```
 
 5. Na interface que abrir:
@@ -74,7 +74,7 @@ musealization_AND_emulation_2025-04-07.xlsx
 ## ⚠️ Limitações
 
 - O script depende da SerpApi, que possui um **limite de 100 buscas gratuitas por mês** com a conta gratuita.
-- A extração é limitada a **60 artigos por query**, respeitando a paginação da API.
+- A extração é limitada a **60 artigos por query**, respeitando a paginação da API. Entretanto isso pode ser alterado no código, leve em consideração que cada página de resultados conta como **uma busca** para o SerpApi.
 
 ---
 
