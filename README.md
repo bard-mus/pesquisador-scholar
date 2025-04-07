@@ -1,6 +1,6 @@
-# 📚 Google Scholar Scraper via SerpApi
+# 📚 Scholar Scraper via SerpApi
 
-Este script permite extrair até **60 resultados** de artigos acadêmicos do **Google Scholar** usando a **API do SerpApi**, com base em uma **palavra-chave ou expressão de busca personalizada**. Ele salva os resultados em um arquivo `.xlsx` (Excel), contendo título, autores, data de publicação, snippet (resumo) e link direto para o artigo.
+Este script permite extrair até **60 resultados** de artigos acadêmicos do **Scholar** usando a **API do SerpApi**, com base em uma **palavra-chave ou expressão de busca personalizada**. Ele salva os resultados em um arquivo `.xlsx` (Excel), contendo título, autores, data de publicação, snippet (resumo) e link direto para o artigo.
 
 A aplicação possui uma interface gráfica amigável desenvolvida em **Tkinter**, facilitando seu uso sem necessidade de linha de comando.
 
@@ -8,7 +8,7 @@ A aplicação possui uma interface gráfica amigável desenvolvida em **Tkinter*
 
 ## ✅ Funcionalidades
 
-- Busca automatizada no **Google Scholar** via SerpApi.
+- Busca automatizada no **Scholar** via SerpApi.
 - Retorna até **60 artigos por consulta**.
 - Salva os seguintes campos:
   - Título
@@ -32,7 +32,7 @@ pip install requests pandas openpyxl
 Você também precisa criar uma conta gratuita no [SerpApi](https://serpapi.com/) para obter sua **API Key**.
 
 - Com a conta gratuita, você pode realizar até **100 buscas por mês** gratuitamente.
-- A chave é necessária para autenticar as requisições ao Google Scholar.
+- A chave é necessária para autenticar as requisições ao Scholar.
 
 ---
 
